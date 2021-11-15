@@ -6,26 +6,30 @@ h1,
 h2,
 h3 {
 	font-family: 'Lobster', cursive;
+	color: white;
 }
 
 h2 {
-	color: #3046c5;
+	color: #b67717;
 }
 
 header h2 {
-	color: #cec8ff;
+	color: #eec783;
 }
 
 .site-footer {
-	background-image: linear-gradient(#cec8ff, white);
+	background-image: linear-gradient(#6c490e, rgba(114, 111, 107, 0.632));
 	padding: 20px 0;
 }
 
 .jumbotron {
 	margin: 0;
-	padding: 30px;
-	background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-	color: white;
+	padding: 150px;
+	background-image: url(https://media.cntraveler.com/photos/607313c3d1058698d13c31b5/16:9/w_2560%2Cc_limit/FamilyCamping-2021-GettyImages-948512452-2.jpg);
+	background-size: cover;
+	background-position: 30% 70%;
+	height: auto;
+	width: 100%;
 }
 
 .row-content {
@@ -39,7 +43,7 @@ header h2 {
 }
 
 .navbar {
-	background-color: #901cad;
+	background-color: #392504;
 }
 
 .tab-content {
@@ -53,5 +57,5 @@ header h2 {
 }
 
 .carousel {
-	border: solid #5637dd;
+	border: solid #342f27;
 }
