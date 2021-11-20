@@ -1,3 +1,14 @@
+$color-primary: #646059;
+$color-header-h2: #eec783;
+$color-nav: #392504;
+$color-gradient-1: #6c490e;
+$color-gradient-2: rgba(114, 111, 107, 0.632);
+$color-carousel: #342f27;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+
+$body-font: 'Open Sans', sans-serif;
+$header-font: 'Lobster', cursive;
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -5,20 +16,22 @@ body {
 h1,
 h2,
 h3 {
-	font-family: 'Lobster', cursive;
+	font-family: $header-font;
 	color: white;
 }
 
 h2 {
-	color: #646059;
+	color: $color-primary;
 }
 
-header h2 {
-	color: #eec783;
+header {
+    h2 {
+	color: $color-header-h2;
+    }   
 }
 
 .site-footer {
-	background-image: linear-gradient(#6c490e, rgba(114, 111, 107, 0.632));
+	background-image: linear-gradient($color-gradient-1, $color-gradient-2);
 	padding: 20px 0;
 }
 
@@ -43,7 +56,7 @@ header h2 {
 }
 
 .navbar {
-	background-color: #392504;
+	background-color: $color-nav;
 }
 
 .tab-content {
@@ -53,11 +66,11 @@ header h2 {
 }
 
 .carousel-caption {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: $color-black-transparent;
 }
 
 .carousel {
-	border: solid #342f27;
+	border: solid $color-carousel;
 }
 
 #carouselButton {
